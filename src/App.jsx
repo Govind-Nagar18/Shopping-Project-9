@@ -15,7 +15,7 @@ export default function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Cart" element={<Cart cart={cart}/>} />
+          <Route path="/Cart" element={<Cart cart={cart} setCart={setcart} />} />
           <Route path="/Login" element={<Login />} />
           <Route path="/Home/Products/:cate_id" element={<Produts setcart={setcart}/>} />
         </Routes>

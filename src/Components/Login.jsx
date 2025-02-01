@@ -18,6 +18,7 @@ export default function Login() {
       Id: Id,
     };
     setData([...Data, obj]);
+    e.target.reset();
   }
 
   function DeleteData(id) {
